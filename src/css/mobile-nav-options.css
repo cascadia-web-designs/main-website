@@ -52,7 +52,8 @@
   }
 
   #navigation .hamburger-menu .visually-hidden {
-    display: none;
+    color: white;
+    opacity: 0.1;
   }
 
   #navigation .hamburger-menu span {
