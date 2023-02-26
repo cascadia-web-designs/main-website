@@ -60,6 +60,11 @@
     margin: auto;
     max-width: 33.875rem;
   }
+  #sbs .buttons-right {
+    margin-left: auto;
+    text-align: center;
+    row-gap: 2rem;
+  }
   #sbs .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
@@ -150,6 +155,7 @@
   #sbs .cs-right {
     margin: 0;
   }
+ 
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
