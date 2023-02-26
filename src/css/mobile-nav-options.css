@@ -50,6 +50,11 @@
     transform: translateY(-50%);
     transition: top .3s;
   }
+
+  #navigation .hamburger-menu .visually-hidden {
+    display: none;
+  }
+
   #navigation .hamburger-menu span {
     height: 2px;
     width: 1.875em;
@@ -227,6 +232,7 @@
     transform: translateY(-50%);
     transition: top .3s;
   }
+
   #navigation .hamburger-menu span {
     height: 2px;
     width: 1.875em;
