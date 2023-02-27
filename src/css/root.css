@@ -624,6 +624,7 @@
   #footer {
     background: #1C1C1C;
     padding: 3.25rem 0 1.25rem;
+    border-top: 0.375em solid var(--primary);
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {

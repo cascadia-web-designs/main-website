@@ -268,7 +268,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -301,7 +301,6 @@
   }
   
   .services .card {
-    flex-basis: calc(33.33% - 10px);
     background-color: #fff;
     padding: 40px;
     margin-bottom: 40px;
