@@ -738,19 +738,19 @@
     text-align: center;
     margin-top: 3.25rem;
     line-height: 2.25rem;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   #footer .credit a {
     color: var(--primary);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   #footer .credit a:hover {
     text-decoration: underline;
   }
   #footer .credit .copyright {
     display: block;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 /* Small Desktop */
