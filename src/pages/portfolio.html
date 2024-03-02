@@ -1,0 +1,80 @@
+---
+layout: "base.html"
+description: "Meta description for the page"
+metaTitle: "Title that shows up on OG social Media Title Tag"
+tagTitle: "Portfolio"
+preloadImg: "/images/cabinets2-1920w.webp"
+preloadCSS: "/css/reviews.css"
+permalink: "portfolio/"
+eleventyNavigation:
+    key: Portfolio
+    order: 400
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+    <h1 id="home-h">Our Portfolio</h1>
+    {% image './src/images/about-us-header.jpg', 'cabinets', '', 'lazy',
+    '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
+
+<section id="reviews">
+    <div class="container">
+        <div class="review">
+            <picture>
+                <img
+                    class="profile"
+                    loading="lazy"
+                    decoding="async"
+                    src="/assets/svgs/profile.svg"
+                    alt=""
+                    width="99"
+                    height="99"
+                />
+            </picture>
+            <p>
+                Amazing work from the team at CWD. Not only did they improve the
+                look of my website, but also saved me money for hosting and
+                up-keep. Had 6 new callers asking for wheels after the first day
+                of the new site being live. Easy communication and quick turn
+                around.
+            </p>
+            <div class="star-group">
+                <span class="name">Devil's Werk<span class="desc"></span></span>
+                <a class="desc" target="_blank" href="https://devilswerk.com/"
+                    >Visit</a
+                >
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+    <div class="container">
+        <h2 class="title">
+            Get It Done <br />
+            With Us Today
+        </h2>
+        <p>
+            Say something catchy, informative, and encouraging to click the
+            button to go to the contact page. I like to add these to the bottom
+            of all pages.
+        </p>
+        <a href="/contact.html" class="button-solid">Free Estimate</a>
+    </div>
+    {% image './src/images/cabinets2.jpg', 'kitchen cabinets', '', 'lazy',
+    '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
